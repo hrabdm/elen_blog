@@ -1,0 +1,4 @@
+/* active like color in post.php */
+.likeBtn.liked {
+    color: #cc0000 !important;
+}
