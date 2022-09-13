@@ -1,4 +1,6 @@
 <?php
+// echo $passwordHash = password_hash("111", PASSWORD_DEFAULT);
+// die();
 require($_SERVER['DOCUMENT_ROOT'] . '/configs/db.php');
 require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
 ?>

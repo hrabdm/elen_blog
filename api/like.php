@@ -30,8 +30,7 @@ if (isset($_POST['post_id'])) {
                 die();
             } else {
                 $sql =
-                    "INSERT 
-                INTO user_post_likes (user_id, post_id) 
+                    "INSERT INTO user_post_likes (user_id, post_id) 
                 VALUES ( '" . $user['id'] . "', '" . $_POST['post_id'] . "');";
 
                 if ($result = $conn->query($sql)) {

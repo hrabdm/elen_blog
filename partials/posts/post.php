@@ -61,7 +61,7 @@ if ($result = $conn->query($sql)) :
                                 ?>
                                 <span class="likeBtn 
                                 <?php
-                                if ($likeUserResult->fetch_assoc()['total']  > 0) {
+                                if (isset($likeUserResult) && $likeUserResult->fetch_assoc()['total']  > 0) {
                                     echo "liked";
                                 }
                                 ?>" data-id="<?php echo $row['id']; ?>">
