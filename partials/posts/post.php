@@ -32,7 +32,7 @@ if ($result = $conn->query($sql)) :
                     <p class="mb-4"><?php echo $row['description']; ?></p>
 
                     <div class="author mb-4 d-flex align-items-center">
-                        <a href="#" class="img" style="background-image: url(assets/images/person_1.jpg);"></a>
+                        <a href="#" class="img" style="background-image: url(/assets/images/person_1.jpg);"></a>
                         <div class="ml-3 info">
                             <span>Written by</span>
                             <h3><a href="#">Dave Lewis</a>, <span>Nov. 28, 2018</span></h3>
